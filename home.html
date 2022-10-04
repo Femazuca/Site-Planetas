@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+    <title>Projeto Planetas</title>
+</head>
+<body>
+   <nav id="nav_bar">
+      <a onclick="fechaMenubar()"><img id="x_img" src="img/x.png"></a>
+      <a class="border-menu"><p class="number-menu">00</p><p>HOME</p></a>
+      <a href="destination.html"><p class="number-menu">01</p><p>DESTINATION</p></a>
+      <a href="crew.html"><p class="number-menu">02</p><p>CREW</p></a>
+      <a href="technology.html"><p class="number-menu">03</p><p>TECHNOLOGY</p></a>
+    </nav>
+    <header>
+       <img src="img/logo.png">
+       <div class="linha"></div>
+       <a class="navbar" onclick="executaMenubar()"><img src="img/navbar.png"></a>
+       <nav class="destino">
+          <div class="destino-inferior">
+             <a class="border"><p class="number">00</p><p>HOME</p></a>
+             <a href="destination.html"><p class="number">01</p><p>DESTINATION</p></a>
+             <a href="crew.html"><p class="number">02</p><p>CREW</p></a>
+             <a href="technology.html"><p class="number">03</p><p>TECHNOLOGY</p></a>
+          </nav>
+       </div>
+    </header>
+  <div class="principal">
+    <a href = destination.html class="explore"><p>EXPLORE</p></a>
+    <main>
+        <p class="text-superior">SO, YOU WANT TO TRAVEL TO</p>
+        <p class="text-space">SPACE</p>
+        <p class="text-inferior">Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!</p>
+    </main>
+  </div>
+</body>
+<script src="home.js"></script>
+</html>

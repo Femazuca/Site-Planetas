@@ -1,0 +1,183 @@
+@media screen and (min-width : 541px) and (max-width : 1299px) {
+    body{
+        color: #FFFF;
+        background: url(img/back-dest-tablet.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 110vh;
+    
+    }
+
+    .number-title{
+        font-weight: bold;
+        margin-right: 5px;
+        color: grey;
+    }
+
+.destino p{
+    font-size: 16px;
+}
+
+.number{
+    display: none;
+}
+.linha{
+    display: none;
+}
+
+/* PAGE-TITLE */
+.titulo{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.titulo p{
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 3px;
+    font-size: 20px;
+    
+
+}
+
+/* ------------------------- */
+
+/* LUA */
+
+.astro{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.astro img{
+    width: 300px;
+}
+
+/* ------------------------- */
+
+/* TROCADOR DE CONTEUDO */
+
+.abas{
+    margin-top: 35px;
+    height: 20px;
+    color: #FFFF;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+}
+
+
+.abas-inferior{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    height:80px;
+
+  
+
+
+}
+
+.troca{
+    padding: 0 20px;
+}
+
+.abas-inferior a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.main-page{
+    color: rgba(255, 255, 255, 1);
+}
+
+/* ------------------------- */
+
+/* CONTEUDO-TEXTO */
+
+.titulo-conteudo{
+    display: flex;
+    justify-content: center;
+    height: 95px;
+    margin-top: 30px;
+}
+
+.titulo-conteudo h1{
+    font-size: 70px;
+    font-family: 'Bellefair', serif;
+}
+
+.engloba-texto{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.texto-conteudo{
+    width: 560px;
+}
+
+.texto-conteudo p{
+    font-family: 'Barlow', sans-serif;
+    color: #FFFF;
+    line-height: 35px;
+    font-size: 18px;
+    text-align:center;
+
+}
+
+/* ------------------------- */
+
+/* LINHA-DE-DIVISÃO */
+
+.corte{
+    display: flex;
+    justify-content: center;
+    margin-top:15px;
+ 
+}
+
+.line{
+    margin-top: 40px;
+    width: 650px;
+    height: 0.01vh;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* ------------------------- */
+
+/* METRICAS */
+
+.metricas{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+
+}
+
+.avg p, .est p {
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.avg h1 , .est h1{
+    text-align: center;
+    font-size: 28px;
+    color: #FFFF;
+    font-family: 'Bellefair', serif;
+    margin-top: 13px;
+}
+
+
+
+}
+
+/* ------------------------- */

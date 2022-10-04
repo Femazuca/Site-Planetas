@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Barlow:wght@100&family=Bellefair&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="trans.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="destination-mobile.css">
+    <link rel="stylesheet" href="destination-tablet.css">
+    <link rel="stylesheet" href="destination-desktop.css">
+    
+    <title>Projeto Planetas</title>
+</head>
+<body>
+   <nav id="nav_bar">
+      <a onclick="fechaMenubar()"><img id="x_img" src="img/x.png"></a>
+      <a href="home.html" class="border-menu"><p class="number-menu">00</p><p>HOME</p></a>
+      <a><p class="number-menu">01</p><p>DESTINATION</p></a>
+      <a href="crew.html"><p class="number-menu">02</p><p>CREW</p></a>
+      <a href="technology.html"><p class="number-menu">03</p><p>TECHNOLOGY</p></a>
+    </nav>
+    <header>
+       <img src="img/logo.png">
+       <div class="linha"></div>
+       <a class="navbar" onclick="executaMenubar()"><img src="img/navbar.png"></a>
+       <nav class="destino">
+          <div class="destino-inferior">
+             <a href="home.html" ><p class="number">00</p><p>HOME</p></a>
+             <a class="border" href="destination.html"><p class="number">01</p><p>DESTINATION</p></a>
+             <a href="crew.html"><p class="number">02</p><p>CREW</p></a>
+             <a href="technology.html"><p class="number">03</p><p>TECHNOLOGY</p></a>
+          </nav>
+       </div>
+    </header>
+
+   
+
+        <div class="titulo">
+            <p class="number-title">01</p><p>PICK YOUR DESTINATION</p>
+        </div>
+
+        <!--  FLEX PAGES (MOON) -->
+
+        <section class="main-moon" id="moon">
+        <div class="astro">
+       <img src="./img/lua.png" alt="lua">
+        </div>
+
+        <div class="lado-direito">
+
+        <nav class="abas">
+            <div class="abas-inferior">
+               <div class="troca"> <a class="border" ><p class="main-page">MOON</p></a> </div>
+               <div class="troca"> <a onclick = "mudaPagina_moon_mars()" ><p>MARS</p></a> </div>
+               <div class="troca"> <a onclick="mudaPagina_moon_europa()" ><p>EUROPA</p></a> </div>
+               <div class="troca"> <a onclick="mudaPagina_moon_titan()"><p>TITAN</p></a> </div>
+            </nav>
+         </div>
+
+         <div class="titulo-conteudo">
+             <h1>MOON</h1>
+         </div>
+         <div class="engloba-texto">
+         <div class="texto-conteudo">
+             <p>See our planet as you’ve never seen it before. 
+            A perfect relaxing trip away to help regain 
+            perspective and come back refreshed.
+             While you’re there, take in some history 
+             by visiting the Luna 2 and Apollo 11 landing sites.</p>
+         </div>
+        </div>
+  
+         <div class="corte">
+             <div class="line"></div>
+        </div>
+        <div class="engloba-metricas">
+         <div class="metricas">
+         <div class="avg">
+            <p>AVG. DISTANCE</p>
+            <h1>384,400 KM</h1>
+     
+         </div>
+         <div class="est">
+           <p>EST. TRAVEL TIME</p>
+           <h1>3 DAYS</h1>
+        </div>
+         </div>
+        </div>
+      </div>
+
+    </section>
+    <section class="main-mars" id="mars">
+      <div class="astro">
+     <img src="./img/mars.png" alt="lua">
+      </div>
+
+      <div class="lado-direito">
+
+      <nav class="abas">
+          <div class="abas-inferior">
+            <div class="troca"><a onclick="mudaPagina_mars_moon()"  ><p>MOON</p></a></div>
+            <div class="troca"><a class="border"><p class="main-page">MARS</p></a></div>
+            <div class="troca"><a onclick="mudaPagina_mars_europa()" ><p>EUROPA</p></a></div>
+            <div class="troca"><a onclick="mudaPagina_mars_titan()" ><p>TITAN</p></a></div>
+          </nav>
+       </div>
+
+       <div class="titulo-conteudo">
+           <h1>MARS</h1>
+       </div>
+       <div class="engloba-texto">
+       <div class="texto-conteudo">
+           <p>Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!</p>
+       </div>
+      </div>
+
+       <div class="corte">
+           <div class="line"></div>
+      </div>
+
+      <div class="engloba-metricas">
+       <div class="metricas">
+       <div class="avg">
+          <p>AVG. DISTANCE</p>
+          <h1>384,400 KM</h1>
+   
+       </div>
+       <div class="est">
+         <p>225 MIL. km</p>
+         <h1>9 months</h1>
+      </div>
+       </div>
+      </div>
+   </div>
+
+  </section>
+  <section class="main-europa" id="europa">
+   <div class="astro">
+  <img src="./img/europa.png" alt="lua">
+   </div>
+
+   <div class="lado-direito">
+
+   <nav class="abas">
+       <div class="abas-inferior">
+         <div class="troca"><a onclick="mudaPagina_europa_moon()"  ><p>MOON</p></a></div>
+         <div class="troca"><a  onclick="mudaPagina_europa_mars()"  ><p>MARS</p></a></div>
+         <div class="troca"><a  class="border"><p class="main-page">EUROPA</p></a></div>
+         <div class="troca"><a onclick="mudaPagina_europa_titan()" ><p>TITAN</p></a></div>
+       </nav>
+    </div>
+
+    <div class="titulo-conteudo">
+        <h1>EUROPA</h1>
+    </div>
+    <div class="engloba-texto">
+    <div class="texto-conteudo">
+        <p>The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.</p>
+    </div>
+   </div>
+
+    <div class="corte">
+        <div class="line"></div>
+   </div>
+   <div class="engloba-metricas"> 
+    <div class="metricas">
+    <div class="avg">
+       <p>AVG. DISTANCE</p>
+       <h1>384,400 KM</h1>
+
+    </div>
+    <div class="est">
+      <p>628 MIL. km</p>
+      <h1>3 years</h1>
+   </div>
+    </div>
+    </div>
+   </div>
+
+</section>
+<section class="main-titan" id="titan">
+   <div class="astro">
+  <img src="./img/titan.png" alt="lua">
+   </div>
+
+   <div class="lado-direito">
+
+   <nav class="abas">
+       <div class="abas-inferior">
+         <div class="troca"><a onclick="mudaPagina_titan_moon()"  ><p>MOON</p></a></div>
+         <div class="troca"><a onclick="mudaPagina_titan_mars()" ><p>MARS</p></a></div>
+         <div class="troca"><a onclick="mudaPagina_titan_europa()"  ><p>EUROPA</p></a></div>
+         <div class="troca"><a class="border"><p class="main-page">TITAN</p></a></div>
+       </nav>
+    </div>
+
+    <div class="titulo-conteudo">
+        <h1>TITAN</h1>
+    </div>
+    <div class="engloba-texto">
+    <div class="texto-conteudo">
+        <p>The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.</p>
+    </div>
+   </div>
+
+    <div class="corte">
+        <div class="line"></div>
+   </div>
+
+
+   <div class="engloba-metricas">
+    <div class="metricas">
+    <div class="avg">
+       <p>AVG. DISTANCE</p>
+       <h1>384,400 KM</h1>
+
+    </div>
+    <div class="est">
+      <p>1.6 BIL. km</p>
+      <h1>7 years</h1>
+   </div>
+    </div>
+    </div>
+   </div>
+
+</section>
+    <script src="home.js"></script>
+    <script src="destination.js"></script>
+
+</body>

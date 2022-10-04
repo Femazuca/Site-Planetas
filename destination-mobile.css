@@ -1,0 +1,162 @@
+@media screen and (min-width : 280px) and (max-width : 540px){
+
+body{
+    color: #FFFF;
+    font-family: 'Barlow', sans-serif;
+    background: url(img/back-des.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Barlow', sans-serif;
+    height: 98.9vh;
+
+}
+
+
+
+
+/* PAGE-TITLE */
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.titulo p{
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 3px;
+    
+
+}
+
+/* ------------------------- */
+
+/* LUA */
+
+.astro{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.astro img{
+    width: 180px;
+}
+
+/* ------------------------- */
+
+/* TROCADOR DE CONTEUDO */
+
+.abas{
+    margin-top: 15px;
+    height: 20px;
+    color: #FFFF;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+}
+
+
+.abas-inferior{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    height:80px;
+    font-size:20px;
+  
+
+
+}
+
+.troca{
+    padding: 0 20px;
+}
+
+.abas-inferior a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.main-page{
+    color: rgba(255, 255, 255, 1);
+}
+
+/* ------------------------- */
+
+/* CONTEUDO-TEXTO */
+
+.titulo-conteudo{
+    display: flex;
+    justify-content: center;
+    height: 95px;
+}
+
+.titulo-conteudo h1{
+    font-size: 55px;
+    font-family: 'Bellefair', serif;
+}
+
+.engloba-texto{
+    display: flex;
+    justify-content: center;
+}
+
+.texto-conteudo{
+    width: 328px;
+}
+
+.texto-conteudo p{
+    color: #FFFF;
+    line-height: 28px;
+    font-size: 14px;
+    text-align:center;
+
+}
+
+/* ------------------------- */
+
+/* LINHA-DE-DIVISÃO */
+
+.corte{
+    display: flex;
+    justify-content: center;
+    margin-top:15px;
+ 
+}
+
+.line{
+    width: 350px;
+    height: 0.01vh;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* ------------------------- */
+
+/* METRICAS */
+
+.metricas{
+    text-align: center;
+    margin-top:30px;
+}
+
+.avg p, .est p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.avg h1 , .est h1{
+    font-size: 28px;
+    color: #FFFF;
+    font-family: 'Bellefair', serif;
+    margin-top: 13px;
+}
+
+
+
+/* ------------------------- */
+}

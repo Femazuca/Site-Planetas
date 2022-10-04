@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="crew.css">
+    <script src="home.js"></script>
+    <script src="crew.js"></script>
+    <title>Projeto Planetas</title>
+</head>
+<body>
+   <nav id="nav_bar">
+      <a onclick="fechaMenubar()"><img id="x_img" src="img/x.png"></a>
+      <a href="home.html"><p class="number-menu">00</p><p>HOME</p></a>
+      <a href="destination.html"><p class="number-menu">01</p><p>DESTINATION</p></a>
+      <a class="border-menu" ><p class="number-menu">02</p><p>CREW</p></a>
+      <a href="technology.html"><p class="number-menu">03</p><p>TECHNOLOGY</p></a>
+    </nav>
+    <header>
+       <img src="img/logo.png">
+       <div class="linha"></div>
+       <a class="navbar" onclick="executaMenubar()"><img src="img/navbar.png"></a>
+       <nav class="destino">
+          <div class="destino-inferior">
+             <a href="home.html"><p class="number">00</p><p>HOME</p></a>
+             <a href="destination.html"><p class="number">01</p><p>DESTINATION</p></a>
+             <a class="border"><p class="number">02</p><p>CREW</p></a>
+             <a href="technology.html"><p class="number">03</p><p>TECHNOLOGY</p></a>
+          </nav>
+       </div>
+    </header>
+
+    <section>
+        <h1 class="number-1">02</h1>
+        <h1>MEET YOUR CREW</h1>
+     </section>
+
+    <main class="crew-1" id="crew1">
+      <div class="conteudo">
+        <div class="text-crew">
+            <p class="comander">COMMANDER</p>
+            <p class= "name">DOUGLAS HURLEY</p>
+            <p class="text">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</p>  
+            <footer>
+                <a><div class="troca1"></div></a>
+                <a onclick="mudaPagina_crew1_crew2()"><div class="troca2"></div></a>
+                <a onclick="mudaPagina_crew1_crew3()"><div class="troca2"></div></a>
+                <a onclick="mudaPagina_crew1_crew4()"><div class="troca2"></div></a>
+            </footer>        
+         </div>
+         <div class="linha2"></div>
+         <img class="img-crew" src="/img/crew1.png">
+      </div>
+    </main>
+
+
+    <main class="crew-2"  id="crew2">
+        <div class="conteudo">
+          <div class="text-crew">
+              <p class="comander">MISSION SPECIALIST </p>
+              <p class= "name">MARK SHUTTLEWORTH</p>
+              <p class="text">Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.  </p>  
+              <footer>
+                <a onclick="mudaPagina_crew2_crew1()"><div class="troca2"></div></a>
+                <a><div class="troca1"></div></a>
+                <a onclick="mudaPagina_crew2_crew3()"><div class="troca2"></div></a>
+                <a onclick="mudaPagina_crew2_crew4()"><div class="troca2"></div></a>
+              </footer>        
+           </div>
+           <div class="linha2"></div>
+           <img class="img-crew" src="/img/crew2.png">
+        </div>
+      </main>
+
+
+      <main class="crew-3"  id="crew3">
+        <div class="conteudo">
+          <div class="text-crew">
+              <p class="comander">PILOT</p>
+              <p class= "name">VICTOR GLOVER</p>
+              <p class="text">Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer. </p>  
+              <footer>
+                <a onclick="mudaPagina_crew3_crew1()"><div class="troca2"></div></a>
+                <a onclick="mudaPagina_crew3_crew2()"><div class="troca2"></div></a>
+                <a ><div class="troca1"></div></a>
+                <a onclick="mudaPagina_crew3_crew4()"><div class="troca2"></div></a>
+              </footer>        
+           </div>
+           <div class="linha2"></div>
+           <img class="img-crew" src="/img/crew3.png">
+        </div>
+      </main>
+
+
+      <main class="crew-4"  id="crew4">
+        <div class="conteudo">
+          <div class="text-crew">
+              <p class="comander">FLIGHT ENGINEER</p>
+              <p class= "name">ANOUSHEN ANSARI</p>
+              <p class="text">Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space.</p>  
+              <footer>
+                  <a onclick="mudaPagina_crew4_crew1()"><div class="troca2"></div></a>
+                  <a onclick="mudaPagina_crew4_crew2()"><div class="troca2"></div></a>
+                  <a onclick="mudaPagina_crew4_crew3()"><div class="troca2"></div></a>
+                  <a><div class="troca1"></div></a>
+              </footer>        
+           </div>
+           <div class="linha2"></div>
+           <img class="img-crew" src="/img/crew4.png">
+        </div>
+      </main>
+
+</body>

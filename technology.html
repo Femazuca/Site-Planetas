@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Barlow:wght@100&family=Bellefair&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="technology.css">
+    <link rel="stylesheet" href="header.css">  
+    <script src="technology.js"></script>
+    <script src="home.js"></script>
+    <title>Projeto Planetas</title>
+</head>
+<body>
+   <nav id="nav_bar">
+      <a onclick="fechaMenubar()"><img id="x_img" src="img/x.png"></a>
+      <a href="home.html" class="border-menu"><p class="number-menu">00</p><p>HOME</p></a>
+      <a href="destination.html"><p class="number-menu">01</p><p>DESTINATION</p></a>
+      <a href="crew.html"><p class="number-menu">02</p><p>CREW</p></a>
+      <a ><p class="number-menu">03</p><p>TECHNOLOGY</p></a>
+    </nav>
+    <header>
+       <img src="img/logo.png">
+       <div class="linha"></div>
+       <a class="navbar" onclick="executaMenubar()"><img src="img/navbar.png"></a>
+       <nav class="destino">
+          <div class="destino-inferior">
+             <a href="home.html" ><p class="number">00</p><p>HOME</p></a>
+             <a href="destination.html"><p class="number">01</p><p>DESTINATION</p></a>
+             <a href="crew.html"><p class="number">02</p><p>CREW</p></a>
+             <a class="border" href="technology.html"><p class="number">03</p><p>TECHNOLOGY</p></a>
+          </nav>
+       </div>
+    </header>     
+    <section>
+        <h1 class="number-1">03 </h1>
+        <h1>SPACE LAUCH 101</h1>
+     </section>
+    <main class="tech-1" id="tech1">
+        <div class="conteudo">
+         <div class="tablet">
+          <aside class="muda-pag">
+            <a><div class="muda1">1</div></a>
+            <a onclick="mudaPagina_tech1_crew2()"><div class="muda2">2</div></a>
+            <a onclick="mudaPagina_tech1_crew3()"><div class="muda2">3</div></a>
+          </aside>
+          <div class="text-tech">
+              <p class="context">THE TERMINOLOGY…</p>
+              <p class="name">LAUNCH VEHICLE</p>
+              <p class="text">A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</p>
+          </div>
+        </div>
+          <img class="img1" src="img/tech1.png">
+        </div>
+    </div>
+    </main>
+
+    <main class="tech-2" id="tech2">
+        <div class="conteudo">
+         <div class="tablet">
+          <aside class="muda-pag">
+            <a onclick="mudaPagina_tech2_crew1()"><div class="muda2">1</div></a>
+            <a><div class="muda1">2</div></a>
+            <a onclick="mudaPagina_tech2_crew3()"><div class="muda2">3</div></a>
+          </aside>
+          <div class="text-tech">
+              <p class="context">THE TERMINOLOGY…</p>
+              <p class="name">SPACEPORT</p>
+              <p class="text">A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.  </p>
+          </div>
+         </div>
+          <img class="img1" src="img/tech2.png">
+        </div>
+    </div>
+    </main>
+
+    <main class="tech-3" id="tech3">
+        <div class="conteudo">
+         <div class="tablet">
+          <aside class="muda-pag">
+            <a onclick="mudaPagina_tech3_crew1()"><div class="muda2">1</div></a>
+            <a onclick="mudaPagina_tech3_crew2()"><div class="muda2">2</div></a>
+            <a ><div class="muda1">3</div></a>
+          </aside>
+          <div class="text-tech">
+              <p class="context">THE TERMINOLOGY…</p>
+              <p class="name">SPACE CAPSULE</p>
+              <p class="text">A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained.</p>
+          </div>
+        </div>
+          <img class="img1" src="img/tech3.png">
+        </div>
+    </div>
+    </main>
+
+</body>
